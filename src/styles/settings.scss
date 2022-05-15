@@ -1,0 +1,202 @@
+// FONTS
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+// COULEURS
+
+
+[data-theme='light'] {
+    --background: #FCFCFC;
+    --color: #555555;
+    --color-title:#444444;
+    --blue:#2563EB;
+    --light-blue:#ddebfd;;
+    --light-blue-hover:#EFF6FF;
+    --blue-hover:#3B82F6;
+    --blue-outline:#9CC0FA;
+    --background-blue:#b4d0ff;
+}
+
+[data-theme='dark'] {
+    --background: #23283E;
+    --color: #bdbddd;
+    --color-title:#cdcdff;
+    --blue:#90a0d9;
+    --blue-hover:#a9b9f2;
+    --blue-outline:#464c6b;
+    --light-blue:#464c6b;
+    --light-blue-hover:#313752;
+    --background-blue:#373c51;
+}
+
+$background: var(--background);
+$background-blue: var(--background-blue);
+$color: var(--color);
+$color-title: var(--color-title);
+$blue: var(--blue);
+$light-blue: var(--light-blue);
+$blue-hover: var(--blue-hover);
+$light-blue-hover: var(--light-blue-hover);
+$blue-outline: var(--blue-outline);
+
+.blue{
+    background:$background-blue;
+}
+
+// DEFAULT
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    color: $color;
+    background: $background;
+}
+a {
+    color:unset;
+    text-decoration: none;
+}
+
+// Textes
+h1{
+    font-weight: 800;
+    font-size:3rem;
+}
+h1 span{
+    color:$blue;
+}
+.size-1{
+    font-size:1.25rem;
+}
+
+.block{
+    display:block;
+}
+
+// Bontons
+
+.btn-1{
+    padding:1.3rem 2.7rem;
+    font-weight:500;
+    font-size:1.15rem;
+    color:$background;
+    border: 3px solid $background;
+    transition: .2s;
+    background: $blue;
+    border-radius: 10px;
+}
+.btn-1:hover{
+    background: $blue-hover;
+}
+.btn-1:active{
+    border: 3px solid $blue-outline;
+}
+.btn-2{
+    padding:1.3rem 2.7rem;
+    font-weight:500;
+    font-size:1.15rem;
+    color:$blue;
+    border: 3px solid $background;
+    transition: .2s;
+    background: $light-blue;
+    border-radius: 10px;
+    margin-left:10px;
+}
+.btn-2:hover{
+    background: $light-blue-hover;
+}
+.btn-2:active{
+    border: 3px solid $blue-outline;
+}
+.blue {
+    .btn-1, .btn-2{
+     border-color: $background-blue;
+    }
+    .btn-1:active, .btn-2:active{
+        border-color: $blue-outline;
+       }
+}
+
+// Containers & responsive
+section{
+
+}
+.container {
+    max-width: 1280px;
+    padding: 60px 20px;
+    margin: 0 auto;
+}
+
+.wrap {
+    display: flex;
+}
+.nav-secondary {
+    display: flex;
+    
+}
+.middle > * {
+    width: 50%;
+}
+
+.center {
+    text-align: center;
+    justify-content: center;
+}
+
+.smaller {
+    padding: 0 25%;
+}
+
+@media screen and (max-width: 1300px) {
+    .container {
+      
+    }
+}
+
+@media screen and (max-width: 1044px) {
+    .container {
+       
+    }
+
+    .smaller {
+        padding: 0 15%;
+    }
+
+    .wrap {
+        display: flex;
+        flex-direction: column;
+        text-align:center;
+    }
+
+    .middle>* {
+        width: unset;
+    }
+
+    .nav-secondary {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 788px) {
+    .container {
+       
+    }
+
+    .smaller {
+        padding: 0 0%;
+    }
+
+    .nav-secondary {
+        display: flex;
+        flex-direction: column;
+        text-align:center;
+    }
+}

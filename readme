@@ -1,0 +1,22 @@
+npx create-react-app nom_app
+npm i -g react-router-dom sass
+
+npm run build
+npm run deploy
+
+
+import image from "./assets/cat.jpg";
+ <img src={image} />
+
+
+ blue:#037DF8
+
+ Mise en ligne
+ npm install -D gh-pages
+ "homepage" : "https://davidmry93.github.io/davidmaury" (première accolade)
+ "deploy":"gh-pages -d build" (accolade scripts)
+
+git init
+git add .
+git commit -m "code source"
+git branch -M main
