@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/davidmaury/static/css/main.de500709.css",
-    "main.js": "/davidmaury/static/js/main.0d3f31ec.js",
+    "main.css": "/davidmaury/static/css/main.1f2333ce.css",
+    "main.js": "/davidmaury/static/js/main.6ba9b16c.js",
     "static/media/creation_web.png": "/davidmaury/static/media/creation_web.cf33a274cb354d913fb5.png",
     "static/media/profil.jpg": "/davidmaury/static/media/profil.db1880b53162b330fa67.jpg",
     "index.html": "/davidmaury/index.html",
-    "main.de500709.css.map": "/davidmaury/static/css/main.de500709.css.map",
-    "main.0d3f31ec.js.map": "/davidmaury/static/js/main.0d3f31ec.js.map"
+    "main.1f2333ce.css.map": "/davidmaury/static/css/main.1f2333ce.css.map",
+    "main.6ba9b16c.js.map": "/davidmaury/static/js/main.6ba9b16c.js.map"
   },
   "entrypoints": [
-    "static/css/main.de500709.css",
-    "static/js/main.0d3f31ec.js"
+    "static/css/main.1f2333ce.css",
+    "static/js/main.6ba9b16c.js"
   ]
 }
