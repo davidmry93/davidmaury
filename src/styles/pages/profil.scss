@@ -1,0 +1,62 @@
+.profil{
+    padding-top:70px;
+}
+.profil h1 span{
+    display:inline;
+}
+.profil section:first-child .container{
+    padding-right:25%;
+}
+.profil .button1{
+    display: inline-block;
+    margin-top:20px;
+}
+.profil h3{
+    color:$span-color;
+    font-size:1rem;
+    text-transform: uppercase;
+    font-weight:600;
+    padding-bottom: 0;
+}
+.profil h4{
+    font-weight:800;
+    font-size:1.8rem;
+    line-height:2rem;
+    padding-bottom:10px;
+}
+.profil p{
+    padding:10px 0;
+}
+.competence{
+    display:flex;
+    align-items: flex-start;
+    border-top:1px solid rgb(219, 219, 219);
+}
+.competence > div:first-child{
+    padding-right:10px;
+}
+.competence > div:last-child{
+    padding-left:10px;
+}
+.competence > div:last-child div{
+    display: flex;
+    align-items: flex-start;
+}
+.competence > div:last-child div p{
+    margin-left:15px;
+    font-style: italic;
+}
+.competence > div:last-child img{
+    width:30px;
+    margin-top:8px;
+}
+.bolder{
+    font-weight:700;
+    font-style: normal;
+    
+}
+iframe{
+    width:100%;
+    height:500px;
+    border: none;
+}

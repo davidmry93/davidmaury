@@ -1,0 +1,37 @@
+header{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    z-index:99;
+}
+header.container{
+    padding-top:35px;
+    padding-bottom:0;
+}
+header nav{
+    display:flex;
+    align-items: center;
+}
+header a{
+    margin-left:50px;
+    font-size:1rem;
+    font-weight:500;
+    transition-timing-function:cubic-bezier(.4,0,.2,1);
+    transition-duration: .15s;
+}
+header a:not(:last-child):hover{
+    color:$color-darker;
+}
+header #title{
+    font-weight:800;
+    font-size:1.5rem;
+    color:$color-title;
+    padding-right:5px;
+    margin-left:0;
+}
+header #theme-btn{
+    display: block;
+    font-size:1.2rem;
+    color:$span-color;
+}

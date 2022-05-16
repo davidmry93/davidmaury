@@ -1,0 +1,89 @@
+.contact{
+    margin-top:120px;
+    background: linear-gradient(to right, $background-2 42%, $background 42%);
+}
+.contact article{
+    display: flex;
+    align-items: flex-start;
+    padding-bottom:80px;
+}
+.contact .info{
+    width:42%;
+    padding-right:100px;
+}
+.contact p{
+    font-size:1rem;
+}
+.contact form{
+    width:58%;
+}
+.contact h3{
+    margin-bottom:15px;
+}
+.contact .info div{
+    margin-top:25px;
+    display: flex;
+    align-items: center;
+}
+.contact .info svg{
+    font-size:1.6rem;
+    // color:
+}
+.contact .info a{
+    margin-left:20px;
+}
+.contact form{
+    display: flex;
+    flex-direction: column;
+    padding-left:30px;
+}
+.contact form input{
+    padding:13px 15px 12px;
+    font-size:1rem;
+    font-family: $font-family;
+    border:1px solid rgb(214, 214, 214);
+    border-radius:7px;
+    margin-bottom:20px;
+    background-color: $background;
+    color: $color;
+}
+.contact form input:focus{
+    outline:2px solid #b8d3fd;
+}
+.contact form textarea{
+    padding:15px 15px 15px;
+    font-size:1rem;
+    font-family: $font-family;
+    border:1px solid  rgb(214, 214, 214);
+    border-radius:5px;
+    margin-bottom:20px;
+    background-color: $background;
+    color: $color;
+
+}
+.contact form input::placeholder, .contact form textarea::placeholder{
+    color: $color;
+}
+.contact form textarea:focus{
+    outline:2px solid #b8d3fd;
+}
+.contact button{ 
+    padding: 18px 40px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 8px;
+    background: #2563EB;
+    color: white;
+    margin-right: 10px;
+    display: block;
+    width:fit-content;
+    font-family: $font-family;
+    border: none;
+    cursor: pointer;
+}
+.contact button:hover{ 
+    background: #3b82f6;
+}
+.contact button:focus{ 
+    outline:2px solid #b8d3fd;
+}

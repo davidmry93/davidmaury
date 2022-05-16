@@ -36,11 +36,11 @@ const Navigation = () => {
   return (
     <header class="container">
       <nav>
-        <NavLink to="/" >David Maury</NavLink>
+        <NavLink id="title" to="/" >David&nbsp;Maury</NavLink>
         <NavLink to="/profil">Profil</NavLink>
         <NavLink to="/creations">Créations</NavLink>
         <NavLink to="/contact">Contact</NavLink>
-        <a href="#" class="theme-btn" onClick={(e) => toggleTheme(e)}>
+        <a href="#" id="theme-btn" onClick={(e) => toggleTheme(e)}>
           {theme === 'light' ? <BsFillMoonFill /> : <BsFillSunFill />}
         </a>
       </nav>

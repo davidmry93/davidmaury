@@ -4,9 +4,10 @@ import emailjs from '@emailjs/browser';
 
 const Contact = () => {
 
+    console.log(process.env.REACT_APP_TEMPLATE_ID);
     const sendEmail = (e) => {
         e.preventDefault();
-        emailjs.sendForm(process.env.REACT_APP_YOUR_SERVICE_ID, "template_gb8mi27", e.target, 'uBQ9c-hXNwt4T_GXg')
+        emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_PUBLIC_KEY)
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
@@ -18,7 +19,7 @@ const Contact = () => {
     return (
         <main class="contact">
             <section>
-                <article class="container">
+                <article class="container flex">
                     <div class="info">
                         <h3><span>Travaillons ensemble</span></h3>
                         <p>Besoin de renseignements, de conseils, ou vous souhaitez me contacter pour un projet ? Je prends le temps de répondre à vos messages.</p>

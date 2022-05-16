@@ -1,0 +1,61 @@
+.hero {
+    position: relative;
+    overflow: hidden;
+    padding-bottom:80px;
+}
+
+.hero::after {
+    display: block;
+    position: absolute;
+    content: "";
+    background: $background-3;
+    right: -50%;
+    top: 0;
+    bottom: -50%;
+    width: 95%;
+    transform: rotate(10deg);
+    z-index: -1;
+
+}
+.hero .right-hero {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.right-hero img {
+    border-radius: 100%;
+    transform: scaleX(-1);
+    width: 200px;
+    border: 5px solid $span-color;
+    margin-right: 180px;
+}
+.work{
+    align-items:center;
+    padding-top:20px;
+}
+.work > div:first-child{
+    padding-right:30px;
+}
+.work .item{
+    display:flex;
+    align-items: flex-start;
+    margin-top:15px;
+}
+
+.work .item div:first-child{
+    margin-right:18px;
+    display:block;
+    padding:12px 15px 8px;
+    background:$span-color;
+    color:$background;
+    font-size:1.4rem;
+    border-radius:7px;
+    font-weight:800;
+  }
+.work .item h4{
+  margin:0;
+}
+.work .item p{
+    margin-top:5px;
+}
