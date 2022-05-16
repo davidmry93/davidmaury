@@ -2,8 +2,7 @@
 //                              IMPORTS                                     //
 /////////////////////////////////////////////////////////////////////////////
 
-//  ROUTER
-
+//  ROUTER 
 import { HashRouter, Routes, Route } from "react-router-dom";
 
 //  COMPONENTS
@@ -19,6 +18,7 @@ import Home from './pages/Home';
 import Creations from './pages/Creations';
 import Contact from './pages/Contact';
 import Error from './pages/Error';
+
 
 //////////////////////////////////////////////////////////////////////////////
 //                              APP                                         //

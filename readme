@@ -1,8 +1,7 @@
 npx create-react-app nom_app
 npm i -g react-router-dom sass
 
-npm run build
-npm run deploy
+
 
 
 import image from "./assets/cat.jpg";
@@ -20,3 +19,8 @@ git init
 git add .
 git commit -m "code source"
 git branch -M main
+git remote add origin https://davidmry93.davidmaury.git
+git push -u origin main
+
+npm run build
+npm run deploy

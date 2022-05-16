@@ -40,7 +40,7 @@ const Navigation = () => {
         <NavLink to="/profil">Profil</NavLink>
         <NavLink to="/creations">Créations</NavLink>
         <NavLink to="/contact">Contact</NavLink>
-        <a href="#" onClick={(e) => toggleTheme(e)}>
+        <a href="#" class="theme-btn" onClick={(e) => toggleTheme(e)}>
           {theme === 'light' ? <BsFillMoonFill /> : <BsFillSunFill />}
         </a>
       </nav>

@@ -2,12 +2,14 @@
 //                              IMPORTS                                     //
 /////////////////////////////////////////////////////////////////////////////
 
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 //  STYLES
 import 'normalize.css';
 import './styles/index.scss';
+
 
 import App from './App';
 
