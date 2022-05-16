@@ -1,15 +1,21 @@
 {
   "files": {
-    "main.css": "/davidmaury/static/css/main.1f2333ce.css",
-    "main.js": "/davidmaury/static/js/main.6ba9b16c.js",
+    "main.css": "/davidmaury/static/css/main.86ffc05b.css",
+    "main.js": "/davidmaury/static/js/main.48e06d30.js",
     "static/media/creation_web.png": "/davidmaury/static/media/creation_web.cf33a274cb354d913fb5.png",
+    "static/media/cie_imagine.png": "/davidmaury/static/media/cie_imagine.053ffc9ab2ed8ac22105.png",
+    "static/media/lunacy.png": "/davidmaury/static/media/lunacy.6a0adf311b9deb023d98.png",
+    "static/media/js.png": "/davidmaury/static/media/js.0ff691a84066eccba816.png",
+    "static/media/davidmaury.png": "/davidmaury/static/media/davidmaury.e71fa8762148c9180f89.png",
     "static/media/profil.jpg": "/davidmaury/static/media/profil.db1880b53162b330fa67.jpg",
+    "static/media/html.png": "/davidmaury/static/media/html.33745eadd572612bdf11.png",
+    "static/media/css.png": "/davidmaury/static/media/css.630b9366bac9035f5b50.png",
     "index.html": "/davidmaury/index.html",
-    "main.1f2333ce.css.map": "/davidmaury/static/css/main.1f2333ce.css.map",
-    "main.6ba9b16c.js.map": "/davidmaury/static/js/main.6ba9b16c.js.map"
+    "main.86ffc05b.css.map": "/davidmaury/static/css/main.86ffc05b.css.map",
+    "main.48e06d30.js.map": "/davidmaury/static/js/main.48e06d30.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f2333ce.css",
-    "static/js/main.6ba9b16c.js"
+    "static/css/main.86ffc05b.css",
+    "static/js/main.48e06d30.js"
   ]
 }
